@@ -1,0 +1,26 @@
+1) git remote set-url origin(binding) http://192.168.236.5:8040/temp/temp2/test2.git(link)
+2) git fetch
+3) git branch -d <branch-name> (delete local branch)
+4) git add .
+5) git commit -m "message"
+6) git tag -a v1.9.0 -m "message"
+7) git push origin <localbranch>:<remote branch> --tags(to send tags) --force (forcefully send)
+
+
+remove tags:
+remote:
+git push --delete origin tagname
+local:
+git tag --delete tagname
+
+
+
+//#Rename git branch
+git push origin --delete <git branch name>    (removes git branch)
+
+git branch -m <old-name> <new name> (local change name)
+
+git push origin -u <new branch name u wish to create>
+
+
+
